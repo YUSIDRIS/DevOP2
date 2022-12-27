@@ -166,6 +166,12 @@ Resources:
                   Values: [/]
             ListenerArn: !Ref Listener
             Priority: 1
+Outputs:
+    WebAppLBDNSName:
+        Description: DNS name of the load balancer
+        Value: !Join  ["",["http://", !GetAtt WebAppLB.DNSName]]
+        Export:
+            Name: !Sub ${EnvironmentName}-LB-DNSName
 
     
         
