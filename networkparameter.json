@@ -1,7 +1,7 @@
 [
     {
         "ParameterKey":"EnvironmentName",
-        "ParameterValue":"Idrissolution2"
+        "ParameterValue":"solution"
 
     },
     {
@@ -9,19 +9,19 @@
         "ParameterValue":"10.0.0.0/16"
     },
     {
-        "ParameterKey":"publicsubnet1CIDR",
+        "ParameterKey":"Publicsubnet1CIDR",
         "ParameterValue":"10.0.0.0/24"
     },
     {
-        "ParameterKey":"publicsubnet2CIDR",
+        "ParameterKey":"Publicsubnet2CIDR",
         "ParameterValue":"10.0.1.0/24"
     },
     {
-        "ParameterKey":"privatesubnet1CIDR",
+        "ParameterKey":"Privatesubnet1CIDR",
         "ParameterValue":"10.0.2.0/24"
     },
     {
-        "ParameterKey":"privatesubnet2CIDR",
+        "ParameterKey":"Privatesubnet2CIDR",
         "ParameterValue":"10.0.3.0/24"
     }
 ]

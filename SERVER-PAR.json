@@ -1,0 +1,17 @@
+[  
+    {
+        "ParameterKey":"EnvironmentName",
+        "ParameterValue":"solution"
+
+    },
+    {
+        "ParameterKey":"ServerAMIId",
+        "ParameterValue":"ami-0e8ad072b97e68af9"
+    },
+
+    {
+        "ParameterKey":"InstanceType",
+        "ParameterValue":"t3.medium"
+    }
+
+]
