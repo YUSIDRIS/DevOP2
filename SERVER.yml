@@ -71,7 +71,7 @@ Resources:
                 Statement:
                 - Effect: Allow
                   Action:
-                    - s3:*
+                    - "s3:*"
                   Resource: "*"
             Roles: 
               - Ref: S3BucketsRole
@@ -107,8 +107,8 @@ Resources:
                     sudo apt-get update -y
                     sudo apt-get install apache2 -y
                     sudo systemctl start apache2.service 
-                    cd/var/www.html
-                    aws s3 cp s3://solution2idris/index.html
+                    echo "it works! Udagram, Udacity" > /var/www/html/index.html
+                    
 
             ImageId: !Ref ServerAMIId
             IamInstanceProfile: !Ref S3BucketInstanceProfile
